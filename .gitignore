@@ -1,0 +1,6 @@
+.env
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+airflow-webserver.pid
+logs/
