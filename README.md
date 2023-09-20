@@ -29,7 +29,7 @@ Bipin Ghimire - bipin.ghimire@fusemachines.com
    - Host: Your API URL 
 
    ![Http Connection](/Screenshots/http_connection.png)  
-   /Screenshots/http_connection.png
+
 
 - **For Postgres Connection**
    - Set postgres connection id.
