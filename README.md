@@ -52,7 +52,9 @@ Bipin Ghimire - bipin.ghimire@fusemachines.com
 - **Create variables if necessary**
    - Always keep your secret keys, password etc. inside variables.
    - Example:
-
+ 
+     
+  ![Variables](/Screenshots/api_variable.png)  
 
 
 **Result Of My Dag**
