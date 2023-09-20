@@ -28,6 +28,7 @@ Bipin Ghimire - bipin.ghimire@fusemachines.com
    - Connection Type: HTTP
    - Host: Your API URL 
 
+   ![Http Connection](/Screenshots/http_connection.png)  
    /Screenshots/http_connection.png
 
 - **For Postgres Connection**
@@ -45,7 +46,8 @@ Bipin Ghimire - bipin.ghimire@fusemachines.com
    - Port: 5432
    - Save
 
-   /Screenshots/postgres_connection.png
+    ![Postgres Connection](/Screenshots/postgres_connection.png)  
+   
 
 - **Create variables if necessary**
    - Always keep your secret keys, password etc. inside variables.
@@ -57,10 +59,10 @@ Bipin Ghimire - bipin.ghimire@fusemachines.com
 
 Dag code is inside the dag folder.
 The dependencies flow of my dag is as:
+![Dependencies](/Screenshots/dag_flow.png)
 
-/Screenshots/dag_flow.png
 
 Final Log Output is:
+![Final Log](/Screenshots/final_log.png)
 
-/Screenshots/final_log.png
 
