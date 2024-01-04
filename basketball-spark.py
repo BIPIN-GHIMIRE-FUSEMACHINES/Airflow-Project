@@ -33,7 +33,7 @@ filtered_df = result = df.groupBy("name").alias("team_name").agg(count("*").alia
 
 filtered_df.show()
 
-filtered_df.write.parquet("/home/bipin/airflow/data/basketball_clean.parquet")
+filtered_df.write.parquet("/home/bipin/airflow/data/basketball.parquet")
 
 
 filtered_df.write.format('jdbc').options(url='jdbc:postgresql://localhost:5432/postgres',driver = 'org.postgresql.Driver', dbtable = 'solution_df', user=pg_user,password=pg_password).mode('overwrite').save()
